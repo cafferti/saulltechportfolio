@@ -4,6 +4,7 @@
 import './index.css'
 import Navbar from './navbar'
 import Intro from './Intro'
+import About from './about'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div>
         <Navbar/>
         <Intro/>
+        <About/>
     </div>
   )
 }
