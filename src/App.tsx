@@ -2,15 +2,15 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './index.css'
+import Navbar from './navbar'
+import Intro from './Intro'
 
 
 function App() {
   return (
-    <div className="bg-black text-white border-l-8">
-      <div className='bg-black'>
-        helllo css world good
-      </div>
-      
+    <div>
+        <Navbar/>
+        <Intro/>
     </div>
   )
 }
