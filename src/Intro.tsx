@@ -15,14 +15,18 @@ import saulltechcvimg from "./assets/download.svg"
 function Intro() {
     return (
 
-        <header className="bg-[#292F36] text-white md:py-[15rem]">
+        <header className="bg-[#292F36] text-white pb-[2rem] ">
+            <h1 className="hidden md:block text-[#98FAEC] text-5xl font-ubuntu md:py-[4rem] px-[25%]">Senior Front-end <br /> Developer</h1>
+
             <div className="md:flex">
                 <div className="md:fixed md:top-[5rem] flex md:block items-center justify-around">
                     <img src={dropmenuicon} alt="" />
                     <h1 className="text-[#98FAEC] text-5xl font-ubuntu md:hidden text-center w-[90%]">Senior Front-end <br /> Developer</h1>
                 </div>
+                <div className="  border-[#98FAEC]  border-l-[3px] sm:ml-[25%] px-0 py-0 h-[fit-content]   mx-[5%] flex flex-col items-center  sm:mx-[5%] md:ml-[10%]  font-mono rounded-tl-[30%] rounded-br-[30%]">
 
-                <div className="border-white border ml-[25%] w-[50%] md:w-[70%] flex flex-col items-center py-3 mx-[5%] md:ml-[10%] px-5 font-mono rounded-tl-[30%] rounded-br-[30%]">
+                <div className=" text-[12px] py-2 border-white border sm:ml-[25%] h-[fit-content] w-[fit-content]  flex flex-col items-center  sm:mx-[5%] md:ml-[10%] px-5 font-mono rounded-tl-[30%] rounded-br-[30%]">
+                    <div></div>
                     <img src={saulltechsvg} alt="" />
                     <h1>saulltech</h1>
                     <p className="pb-3">Fullstack-Developer</p>
@@ -64,27 +68,29 @@ function Intro() {
                     <a className="bg-white text-black flex items-center p-2 rounded-md" href="#">DownloadCV <img className="p-1" src={saulltechcvimg} alt="" /></a>
 
                 </div>
-                <div className="flex ml-[5%] md:ml-0 mt-[5rem] md:mt-0">
+                </div>
+
+                <div className="mx-[5%] sm:flex sm:ml-[5%] md:ml-0 mt-[5rem] md:mt-0 w-[150%] sm:w-[100%]">
                     <div className="w-[60%]">
                         {/* <h1 className="text-[#98FAEC] text-5xl font-ubuntu">Developer</h1> */}
-                        <h1 className="font-ubuntu text-3xl py-7 border border-[#1A1E23] block">
+                        <h1 className="font-ubuntu text-3xl pt-7 border border-t-2 border-r-2 border-[#1A1E23] block">
                             Hey <br /> I’m <span className="text-[#12F7D6]">Sinan,</span>
-                            <br /> Full-stack developer
+                            <br /> Full-Stack Developer
                         </h1>
-                        <p className="font-ibm font-thin">
+                        <p className="font-ibm font-thin text-[12px] pt-7">
                             I help business grow by crafting amazing web experiences. If you’re
                             looking for a developer that likes to get stuff done,
                         </p>
-                        <a className="text-[#12F7D6] py-4 flex align-middle items-center" href="#">let’s talk
+                        <a className="text-[#d3f5f0] py-4 flex align-middle items-center" href="#">let’s talk
                             <img className="px-1" src={mailicon} alt="" />
                         </a>
                     </div>
 
-                    <div className="bg-[#1A1E23] rounded-full w-[15rem] items-center py-[30px] px-8 flex font-ibm flex-col justify-around">
-                        <div className="flex items-center "><span className="text-[#12F7D6] text-6xl px-5">8</span><p>  Programming <br /> Language</p>
+                    <div className=" sm:mx-0 mx-[15%] bg-[#1A1E23] rounded-full h-[20rem] sm:rounded-full w-[10rem] items-center py-[30px] px-5 flex font-ibm flex-col justify-around text-[12px]">
+                        <div className="flex items-center "><span className="text-[#12F7D6] text-3xl px-3">8</span><p>  Programming <br /> Language</p>
                         </div >
-                        <div className="flex items-center "><span className="text-[#12F7D6] text-6xl px-5">5</span><p>Development <br /> Tools</p> </div>
-                        <div className="flex items-center "><span className="text-[#12F7D6] text-6xl px-5">9</span><p> Years of <br /> Experience</p>
+                        <div className="flex items-center "><span className="text-[#12F7D6] text-3xl px-3">5</span><p>Development <br /> Tools</p> </div>
+                        <div className="flex items-center "><span className="text-[#12F7D6] text-3xl px-3">9</span><p> Years of <br /> Experience</p>
                         </div>
                     </div>
                 </div>
