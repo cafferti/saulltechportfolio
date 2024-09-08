@@ -4,8 +4,8 @@ import aboutimg from './assets/aboutimg.svg'
 import funnymouse from './assets/tailmouse.svg'
 function about() {
   return (
-    <div className='bg-[rgb(26,30,35)] w-[100%] h-[50rem] sm:h-[40rem]'>
-      <img className='opacity-10 h-[100%] w-[100%]' src={saulltechwavybg} alt="" />
+    <div className='bg-[#1A1E23] w-[100%] h-[50rem] sm:h-[35rem]'>
+      <img className='opacity-5 h-[100%] w-[100%]' src={saulltechwavybg} alt="" />
       <div className='  px-[5%] text-white absolute top-[100rem] sm:top-[80rem] md:top-[45rem] flex flex-col items-center'>
         <img src={funnymouse} alt="" />
         <div  className='sm:flex items-center justify-between'>
@@ -27,4 +27,4 @@ function about() {
   )
 }
 
-export default about
+export default about 

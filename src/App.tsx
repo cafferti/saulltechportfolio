@@ -5,14 +5,16 @@ import './index.css'
 import Navbar from './navbar'
 import Intro from './Intro'
 import About from './about'
+import Skillspage from './skillspage'
 
 
 function App() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
         <Navbar/>
         <Intro/>
         <About/>
+        <Skillspage/>
     </div>
   )
 }
